@@ -1,8 +1,6 @@
 # Project-Struktur Data by Valian Tsaqif Hidayat (5024241070)
 # Final Project: Analisis Performa Algoritma Deteksi Tumbukan Partikel 2D
 
-Proyek ini menyajikan simulasi fisika partikel 2D real-time yang bertujuan untuk membandingkan efisiensi kompleksitas waktu dua algoritma deteksi tumbukan utama: Brute Force ($O(N^2)$) dan Quadtree Spatial Partitioning ($O(N \log N)$).
-
 ---
 
 ## 1. Overview Proyek
@@ -30,9 +28,6 @@ Kontrol ini digunakan saat simulasi sudah berjalan:
 | :--- | :--- | :--- |
 | **Q** | **Ganti ke Quadtree** | Simulasi berjalan lancar (Performa $O(N \log N)$). |
 | **B** | **Ganti ke Brute Force** | Simulasi akan *lag* pada $N$ tinggi (Performa $O(N^2)$). |
-| **SPACE** | Tambah partikel baru. | Meningkatkan jumlah $N$ secara bertahap. |
-| **R** | Reset simulasi. | |
-| **ESC** | Keluar / Close Window. | |
 
 ## 5. Persyaratan dan Kompilasi
 
