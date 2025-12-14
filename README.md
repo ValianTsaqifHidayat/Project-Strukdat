@@ -4,7 +4,7 @@
 
 ## 1. Overview Proyek
 
-Proyek ini bertujuan untuk menganalisis dan membandingkan performa dua algoritma utama dalam mendeteksi tumbukan (kolisi) antar partikel dalam sebuah simulasi fisika 2D real-time: Brute Force dan Quadtree Spatial Partitioning. Simulasi dikembangkan menggunakan bahasa pemrograman C++ dengan framework SFML untuk visualisasi. Hasilnya memungkinkan pengguna untuk mengamati secara langsung bagaimana kompleksitas waktu algoritma ($O(N^2)$ vs. ($O(N \log N)$). memengaruhi kelancaran (frame rate) aplikasi ketika jumlah partikel ($N$) ditingkatkan.
+Proyek ini bertujuan untuk menganalisis dan membandingkan performa dua algoritma utama dalam mendeteksi tumbukan (kolisi) antar partikel dalam sebuah simulasi fisika 2D real-time: Brute Force dan Quadtree Spatial Partitioning. Simulasi dikembangkan menggunakan bahasa pemrograman C++ dengan framework SFML untuk visualisasi. Hasilnya memungkinkan pengguna untuk mengamati secara langsung bagaimana kompleksitas waktu algoritma ($O(N^2)$ vs ($O(N \log N)$ memengaruhi kelancaran (frame rate) aplikasi ketika jumlah partikel ($N$) ditingkatkan.
 
 ## 2. Fitur Utama
 
