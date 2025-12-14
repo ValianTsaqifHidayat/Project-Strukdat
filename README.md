@@ -1,5 +1,4 @@
-# Project-Struktur Data by Valian Tsaqif Hidayat (5024241070)
-# Final Project: Analisis Performa Algoritma Deteksi Tumbukan Partikel 2D
+# Project-Struktur Data by Valian Tsaqif Hidayat (5024241070) || Final Project: Analisis Performa Algoritma Deteksi Tumbukan Partikel 2D
 
 ---
 
@@ -42,3 +41,16 @@ Proyek ini menggunakan C++ dan membutuhkan SFML (Simple and Fast Multimedia Libr
 
 ## Kesimpulan
 Proyek simulasi fisika partikel 2D ini menyimpulkan bahwa pemilihan algoritma deteksi tumbukan sangat krusial untuk skalabilitas aplikasi real-time. Demonstrasi live switching antara algoritma Brute Force ($O(N^2)$) dan Quadtree Spatial Partitioning ($O(N \log N)$) secara dramatis memvalidasi perbedaan kompleksitas waktu. Saat jumlah partikel ($N$) tinggi, Brute Force menyebabkan bottleneck performa yang parah dan penurunan Frame Rate (FPS) akibat jumlah collision checks yang kuadratik. Sebaliknya, Quadtree secara efisien mengoptimalkan pencarian ruang, menjaga waktu pemrosesan minimal dan FPS tetap stabil, sehingga membuktikan superioritas teknik spatial partitioning untuk menangani masalah banyak objek (N-body problem) secara efisien dalam lingkungan simulasi dinamis.
+
+### LAMPIRAN
+---
+## Algoritma Quadtree
+<img width="698" height="584" alt="Image" src="https://github.com/user-attachments/assets/8c600f46-e2c7-42f5-b382-e84be3e247cb" />
+
+## Algoritma Brute Force
+<img width="423" height="153" alt="Image" src="https://github.com/user-attachments/assets/64711780-fa79-4cc3-806b-5affe1f42b15" />
+
+## Video Showcase
+![Image](https://github.com/user-attachments/assets/1f60c215-6970-4bd8-ad4b-8e7c7e21d0b0)
+
+
