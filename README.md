@@ -51,6 +51,6 @@ Proyek simulasi fisika partikel 2D ini menyimpulkan bahwa pemilihan algoritma de
 <img width="423" height="153" alt="Image" src="https://github.com/user-attachments/assets/64711780-fa79-4cc3-806b-5affe1f42b15" />
 
 ## Video Showcase
-![Image](https://github.com/user-attachments/assets/1f60c215-6970-4bd8-ad4b-8e7c7e21d0b0)
+![Image](https://github.com/user-attachments/assets/7f953c6d-6530-4186-9f93-c10e94b08df9)
 
 
